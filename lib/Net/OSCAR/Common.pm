@@ -157,7 +157,7 @@ use constant GROUPPERM_AOL => dualvar(0x04, "AOL subscribers");
 
 # Services - deprecated, modules should no longer use these directly
 use constant OSCAR_SVC_AIM => (
-	host => 'login.oscar.aol.com',
+	host => 'testpea-n01a.blue.nina.chat',
 	port => 5190,
 	supermajor => 0x0109,
 	major => 5,

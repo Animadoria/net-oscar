@@ -284,7 +284,7 @@ sub new($) {
 
 Sign on to the OSCAR service.  You can specify an
 alternate host/port to connect to.  The default is
-login.oscar.aol.com port 5190.  
+testpea-n01a.blue.nina.chat port 5190.  
 
 The non-hash form of C<signon> is obsolete and is only provided for compatibility with C<Net::AIM>.
 If you use a hash to pass parameters to this function, here are the valid keys:
@@ -376,7 +376,7 @@ sub signon($@) {
 	$self->{screenname} = Net::OSCAR::Screenname->new(\$args{screenname});
 
 	# We set BOS to the login connection so that our error handlers pick up errors on this connection as fatal.
-	$args{host} ||= "login.oscar.aol.com";
+	$args{host} ||= "testpea-n01a.blue.nina.chat";
 	$args{port} ||= 5190;
 
 
